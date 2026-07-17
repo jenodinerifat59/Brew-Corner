@@ -29,3 +29,53 @@ nav ul li a{
    font-weight: 300;
    line-height: 25.6px;
 }
+/* ============================== */
+.hero{
+    background-image: url(./image/bg-image.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero .hero-container{
+    padding: 224px 0px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.hero .hero-container .p1{
+ font-size: 14px;
+ font-weight: 300;
+ color: #E9B44C;
+ line-height: 22.4px;
+ letter-spacing: 3px;
+}
+.hero .hero-container h1{
+font-size: 52px;
+font-weight: 700;
+color: #FFFFFF;
+line-height: 83.2px;
+max-width: 657.9px;
+margin-bottom: 20px;
+}
+.hero .hero-container .p2{
+font-weight: 300;
+font-size: 17px;
+line-height: 27.2px;
+max-width: 489.82px;
+color: #F0E9DD;
+margin: auto;
+padding-bottom: 30px;
+}
+button{
+    margin: auto;
+    width: fit-content;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #2E2622;
+    background: #E9B44C;
+    border-radius: 30px;
+    border: none;
+    padding: 14px 34px;
+}
