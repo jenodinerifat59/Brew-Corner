@@ -79,3 +79,32 @@ button{
     border: none;
     padding: 14px 34px;
 }
+
+/* ======================= */
+.our-story img{
+ width: 579.8px;
+ height: 386.29px;
+ border-radius: 12px;
+}
+.our-story .grid{
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ align-items: center;
+ gap: 50px;
+ margin-top: 79.6px;
+}
+.our-story h2{
+ font-size: 30px;
+ font-weight: 700;
+ line-height: 48px;
+ color: #2E2622;
+ margin-bottom: 14.4px;
+}
+.our-story p{
+ font-size: 16px;
+ font-weight: 300;
+ line-height: 25.6px;
+ color: #5A4F47;
+ max-width: 579.8px;
+ margin-bottom: 14.4px;
+}
