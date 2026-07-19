@@ -108,3 +108,60 @@ button{
  max-width: 579.8px;
  margin-bottom: 14.4px;
 }
+
+/* ========================= */
+
+.our-menu{
+    background-color:#F1E7D8;
+    margin-top: 80px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.our-menu .hadding-p{
+    padding-top: 80px;
+    font-size: 13px;
+    font-family: 300;
+    line-height: 20.8px;
+    letter-spacing: 2px;
+    color: #E9B44C;
+}
+.our-menu h2{
+    font-size: 34px;
+    font-family: 700;
+    line-height: 54.4px;
+    color: #2E2622;
+}
+.our-menu .box-container h4{
+    font-size: 19px;
+    font-family: 700;
+    line-height: 30.4px;
+    color: #2E2622;
+    margin: 7.2px 0px;
+}
+.our-menu .box-container .box-p1{
+    font-size: 16px;
+    font-family:300;
+    line-height: 25.8px;
+    color: #2E2622;
+     max-width: 229.9px;
+     margin: auto;
+}
+.our-menu .box-container .box-p2{
+    font-size: 18px;
+    font-family:700;
+    line-height: 28.8px;
+    color: #E9B44C;
+     margin-top: 7.2px;
+}
+.our-menu .box-container .box{
+  background-color:#FFFFFF;
+  border-radius: 14px;
+  padding: 25px;
+  max-width: fit-content;
+}
+.our-menu .box-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
