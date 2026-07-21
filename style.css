@@ -212,3 +212,38 @@ button{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
+
+/* ===================== */
+.table-section{
+    margin: 80px auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.table-section p{
+    padding-top: 50px;
+    font-size: 13px;
+    line-height: 20.8px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: #E9B44C;
+}
+.table-section h2{
+    font-size: 34px;
+    line-height: 54.4px;
+    font-weight: 700;
+    color: #2E2622;
+}
+.table-section table{
+    width: 80%;
+    border-collapse: collapse;   
+    margin: 50px auto; 
+}
+
+.table-section table tr,td,th{
+     border:2px solid #2E2622;
+     padding: 15px 25px;
+}
+.table-section table th{
+    background-color: #2E2622;
+    color: #E9B44C;
+}
