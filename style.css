@@ -296,3 +296,55 @@ button{
     font-weight: 700;
     color: #2E2622;
 }
+/* ================= */
+footer{
+    background: #2E2622;
+    margin-top: 80px;
+}
+footer ul li,p{
+    list-style: none;
+    font-size: 14px;
+    line-height: 22.4px;
+    font-weight: 300;
+    color: #CFC6BB;
+}
+footer .top h4{
+    font-size: 18px;
+    line-height: 28.8px;
+    font-weight: 700;
+    color: #E9B44C;
+}
+footer .top{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px 30px;
+}
+hr{
+    color: #2E2622;
+    margin: 0px 5px;
+}
+footer .bottom ul li i {
+  width: 40px;
+  height: 40px;
+  background-color: #443C35;
+  color: #C2B9AF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .bottom ul{
+     display: flex;
+     gap: 15px;
+}
+footer .bottom p{
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+}
+footer .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26.6px 0px;
+}
